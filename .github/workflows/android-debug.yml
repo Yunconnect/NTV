@@ -13,17 +13,23 @@ jobs:
       - name: Check out source
         uses: actions/checkout@v4
 
-      - name: Set up JDK 8
+      - name: Set up JDK 17 for Android SDK tools
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '8'
+          java-version: '17'
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
 
       - name: Install Android SDK packages
         run: sdkmanager "platform-tools" "platforms;android-27" "build-tools;27.0.3"
+
+      - name: Set up JDK 8 for Gradle
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '8'
 
       - name: Build debug APK
         run: |
