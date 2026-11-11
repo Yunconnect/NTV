@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">星视TV</string>
+    <string name="channel_group">星视TV</string>
+    <string name="channel_panel_title">%1$s  ·  %2$d 个频道</string>
+    <string name="press_back_again_to_exit">再按一次返回键退出</string>
+    <string name="management_scan_title">手机扫码管理</string>
+    <string name="management_same_lan">同一局域网内访问</string>
+    <string name="back_navigation_prompt">点击 OK/确定 进入菜单\n再次点击返回退出应用。</string>
+    <string name="confirm">确定</string>
+</resources>
+

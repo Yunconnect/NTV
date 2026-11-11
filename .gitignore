@@ -1,0 +1,67 @@
+# Gradle / Android build outputs
+.gradle/
+.gradle-user/
+.gradle-user-home/
+.android-build-cache/
+build/
+*/build/
+captures/
+
+# Android local SDK / IDE files
+local.properties
+build-local.properties
+.android-home/
+.idea/
+*.iml
+
+# Native build intermediates
+app/src/main/obj/
+.cxx/
+*.o
+*.d
+
+# Release artifacts
+*.apk
+*.aab
+*.ap_
+*.idsig
+
+# Signing and private config
+.signing/
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore-info.properties
+gradle.properties
+
+# Generated update manifests and local debug captures
+version.json
+version-iptv.json
+ysp-auth-*.txt
+ysp-liveinfo-*.txt
+ysp-network.txt
+*.log
+logs/
+tests/logs/
+tests/build-temp/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.pyc
+__pycache__/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Local tool outputs
+output/
+.playwright-mcp/
+.playwright-cli/
+tools/vps-epg-mirror/
+
+# Local AI/Codex context, private infrastructure notes
+AI_CONTEXT.md
